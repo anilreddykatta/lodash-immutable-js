@@ -1,4 +1,4 @@
-# lodash-plain-immutable
+# lodash-immutable-js
 
 Implementation of lodash for immutable taking plain js objects into consideration. Library supports default values, undefined exceptions. 
 
