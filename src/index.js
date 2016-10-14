@@ -16,9 +16,15 @@ export function isEmpty(objectOrImmutable) {
     return lodash.isEmpty(objectOrImmutable);
 }
 
+export function result(object, path, defaultValue) {
+    const property = get(object, path, defaultValue);
+    return (property instanceof Function) ? property() : property;
+}
+
 
 const _ = {};
 _.get = get;
 _.isEmpty = isEmpty;
+_.result = result;
 
 export default _;

@@ -3,12 +3,6 @@ jest.autoMockOff();
 import _ from './../src';
 import Immutable from 'immutable';
 
-describe('Sample __tests__', () => {
-    it('Initial Test case', () => {
-        expect(1).toBeTruthy();
-    });
-});
-
 describe('Test for isEmpty', () => {
     describe('Test got isEmpty: Plain JS objects', () => {
         const obj = {'a': 1, 'b': {c: 3}};
