@@ -16,6 +16,8 @@ Currently it is development build. I will add configuration for production syste
 
 Steps to run:
 
+#code
+
 npm install or yarn install
 npm run watch:test to run tests in watch mode
 npm run test to run tests once
